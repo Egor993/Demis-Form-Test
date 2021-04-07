@@ -1,0 +1,167 @@
+body{
+	background-color: #eeeee7;
+	font-family: RobotoRegular, sans-serif;
+}
+
+.line:before {
+    content: "";
+    background: #be1116;
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    margin: -4px 20px 0 -40px;
+    vertical-align: middle;
+}
+
+.line2:before {
+    content: "";
+    background: #be1116;
+    display: inline-block;
+    width: 30px;
+    height: 4px;
+    margin: -4px 20px 0 10px;
+    vertical-align: middle;
+}
+
+/*Меню*/
+.menu{
+	display: block;
+	margin-bottom: 30px;
+	font-size: 18px;
+}
+
+nav ul {
+    list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	font-size: 24px;
+	display:inline-block;
+	padding-right: 50px;
+}
+
+a{
+	color: #5e0808;
+	text-decoration: none;
+}
+
+/* Форма */
+input{
+	display:block;
+	margin: 0 auto;
+	font-size:20px;
+}
+
+.form{
+	width: 50%;
+	font-size:24px;
+	border: 3px solid #fff;
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+	text-align:center; 
+
+  	margin: 0 auto;
+}
+
+.form p {
+	line-height: 40px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    text-align: left;
+}
+.btn{
+    background-color: #b00404; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+}
+
+/*Таблица*/
+.table{
+	overflow-x:auto;
+	margin-top: 30px;
+	font-size:20px;
+	border: 3px solid #fff;
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+}	
+table.data {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+
+table.data th, table.data td {
+	text-align: left;
+    padding: 8px;
+    border: 2px solid #fff;
+}
+
+table.data th{
+	font-weight: bold;
+}
+
+/* Новости */
+.content {
+	box-shadow: 0 0 4px rgba(0,0,0,0.5);
+	margin-bottom: 30px;
+	border: 4px solid #fff;
+}
+
+.content h3{
+	padding-left:50px;
+}
+
+.clearfix:after {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+.news {
+  padding-left: 50px;
+  width: 370px;
+  float: left;
+}
+
+/* Адаптивность */
+@media (max-width: 850px){
+	
+	.table {
+		font-size: 32px;
+	}
+
+	.form {
+		min-width: 850px;
+	}
+	.content {
+	min-width: 850px;
+	}
+
+	.table {
+	min-width: 850px;
+	}	
+
+	body {
+		font-size: 32px;
+	}
+
+	input {
+		font-size: 34px;
+	}
+
+	nav ul li {
+		font-size: 40px;
+	}
+
+	h4 {
+		font-size: 32px;	
+	}
+
+}
+
