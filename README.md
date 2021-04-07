@@ -1,1 +1,1 @@
-<h2>Адрес сайта http://egor9993.beget.tech</h2>
+<h3>Адрес сайта http://egor9993.beget.tech</h3>
